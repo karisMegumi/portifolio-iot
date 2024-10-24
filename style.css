@@ -1,0 +1,30 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/ipiranga.jfif');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align:center;
+    position:fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+}
