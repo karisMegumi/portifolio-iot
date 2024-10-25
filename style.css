@@ -1,7 +1,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/ipiranga.jfif');
+    background: url('images/eu.jpg');
     background-size:cover;
     position:relative;
 }
@@ -13,9 +13,10 @@
     font-size: 2rem;
 }
 .hero-text {
+    font-family: 'Times New Roman', Times, serif;
     text-align:center;
     position:fixed;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
@@ -27,4 +28,18 @@
 
 .navbar-brand{
     color: white;
+}
+
+.exclamacao {
+    display: inline-block;
+    animation: pulsar 1s infinite; /* Animação de pulsação */
+}
+
+@keyframes pulsar {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2); /* Aumenta o tamanho */
+    }
 }
