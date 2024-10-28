@@ -44,3 +44,20 @@ body{
         transform: scale(1.2); /* Aumenta o tamanho */
     }
 }
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+.aboutme{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+   
+    padding: 10px;
+}
+.banner{
+    justify-content: left;
+}
