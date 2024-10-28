@@ -4,6 +4,7 @@ body{
     background: url('images/eu.jpg');
     background-size:cover;
     position:relative;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /* text css above hero image*/
@@ -14,7 +15,7 @@ body{
     font-size: 2rem;
 }
 .hero-text {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align:center;
     position:fixed;
     top: 50%;
@@ -55,9 +56,18 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 6vh;
-   
     padding: 10px;
+    font-size: 25px;
+    text-align: justify;
 }
 .banner{
     justify-content: left;
+}
+
+.chs{
+    display: flex;
+    margin-top: 6vh;
+}
+.mt-10{
+    margin-top: 10rem;
 }
