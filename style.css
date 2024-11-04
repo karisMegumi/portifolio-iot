@@ -55,11 +55,19 @@ body{
     color: white;
     display: flex;
     justify-content: center;
-    margin-top: 6vh;
+    margin-top: 5vh;
     padding: 10px;
     font-size: 25px;
     text-align: justify;
 }
+
+.bannerPessoal{
+    background: rgba(0, 0, 105, 0.274);
+    border-radius: 10px;
+    max-height: 100vh;
+    align-content: center;
+}
+
 .banner{
     justify-content: left;
 }
