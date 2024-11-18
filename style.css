@@ -1,81 +1,82 @@
 /* hero background image */
-body{
-    height:100vh;
-    background: url('images/eu.jpg');
-    background-size:cover;
-    position:relative;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+body {
+  height: 100vh;
+  background: url("images/eu.jpg");
+  background-size: cover;
+  position: relative;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+  font-size: 4.5rem;
 }
 .hero_desc {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .hero-text {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align:center;
-    position:fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
 }
 
 .nav-link {
-    color: white;
+  color: white;
 }
 
-.navbar-brand{
-    color: white;
+.navbar-brand {
+  color: white;
 }
 
 .exclamacao {
-    display: inline-block;
-    animation: pulsar 1s infinite; /* Animação de pulsação */
+  display: inline-block;
+  animation: pulsar 1s infinite; /* Animação de pulsação */
 }
 
 @keyframes pulsar {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2); /* Aumenta o tamanho */
-    }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2); /* Aumenta o tamanho */
+  }
 }
 
 /* about section image css */
 .imageAboutPage {
-    width: 100%;
+  width: 100%;
 }
 
-.aboutme{
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: 5vh;
-    padding: 10px;
-    font-size: 25px;
-    text-align: justify;
+.aboutme {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  padding: 10px;
+  font-size: 25px;
+  text-align: justify;
 }
 
-.bannerPessoal{
-    background: rgba(0, 0, 105, 0.274);
-    border-radius: 10px;
-    max-height: 100vh;
-    align-content: center;
+.bannerPessoal {
+  background: rgba(0, 0, 105, 0.274);
+  border-radius: 10px;
+  max-height: 100vh;
+  align-content: center;
 }
 
-.banner{
-    justify-content: left;
+.banner {
+  justify-content: left;
 }
 
-.chs{
-    display: flex;
-    margin-top: 6vh;
+.chs {
+  display: flex;
+  margin-top: 6vh;
 }
-.mt-10{
-    margin-top: 10rem;
+.mt-5 {
+  margin-top: 5rem;
 }
