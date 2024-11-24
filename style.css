@@ -32,13 +32,6 @@ body {
   color: white;
 }
 
-/* Barra de navegação com cor de fundo apenas para telas menores */
-@media (max-width: 992px) {
-  .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.596);
-  }
-}
-
 .exclamacao {
   display: inline-block;
   animation: pulsar 1s infinite; /* Animação de pulsação */
